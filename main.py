@@ -186,10 +186,8 @@ class MainWindow(QtWidgets.QMainWindow,  Ui_MainWindow):
     def dd(self):
         self.statusBar().showMessage('关于我们')   
         QtWidgets.QMessageBox.information(None, "关于我们",
-            "第5组\n"+
-            "组长:杨宗霖\n"+
-            "组员:王啸宇,仇喆,胡博")
-    
+            "Created by wjsayta\n"+
+            "Last Modified By wjsaya\n")
 
     @QtCore.pyqtSlot()
     def on_action_open_triggered(self):

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'd:\github\final_work\final_work_最终版\about.ui'
+# Form implementation generated from reading ui file 'd:\github\image_processing\about.ui'
 #
-# Created by: PyQt5 UI code generator 5.10.1
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -25,9 +25,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.bgp)
         self.label_3 = QtWidgets.QLabel(self.horizontalLayoutWidget)
         self.label_3.setObjectName("label_3")
-        self.horizontalLayout.addWidget(self.label_3, 0, QtCore.Qt.AlignTop)
+        self.horizontalLayout.addWidget(self.label_3)
         self.horizontalLayout.setStretch(0, 1)
-        self.horizontalLayout.setStretch(1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 541, 23))
@@ -41,16 +40,9 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "关于我们"))
         self.bgp.setText(_translate("MainWindow", "TextLabel"))
-        self.label_3.setText(_translate("MainWindow", "\n"
+        self.label_3.setText(_translate("MainWindow", "Created by wjsaya\n"
 "\n"
 "\n"
 "\n"
-"第四组\n"
-"\n"
-"\n"
-"\n"
-"组长:杨宗霖\n"
-"组员:王啸宇 仇喆 胡博\n"
-"\n"
-"     四川师范大学---计科1班"))
+"Last Modified by wjsaya"))
 
